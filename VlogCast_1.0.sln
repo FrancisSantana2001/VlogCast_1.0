@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VlogCast_1.0", "VlogCast_1.0\VlogCast_1.0\VlogCast_1.0.csproj", "{DE71CBF7-A14F-4EC7-BE24-62E3B2865714}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VlogCast_1.0.Client", "VlogCast_1.0\VlogCast_1.0.Client\VlogCast_1.0.Client.csproj", "{461A8A46-8E35-4498-9337-1EA2657FAAEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE71CBF7-A14F-4EC7-BE24-62E3B2865714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE71CBF7-A14F-4EC7-BE24-62E3B2865714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE71CBF7-A14F-4EC7-BE24-62E3B2865714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE71CBF7-A14F-4EC7-BE24-62E3B2865714}.Release|Any CPU.Build.0 = Release|Any CPU
+		{461A8A46-8E35-4498-9337-1EA2657FAAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{461A8A46-8E35-4498-9337-1EA2657FAAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{461A8A46-8E35-4498-9337-1EA2657FAAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{461A8A46-8E35-4498-9337-1EA2657FAAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {49EC18B4-AB95-4CA9-AD73-C59490C921E4}
+	EndGlobalSection
+EndGlobal

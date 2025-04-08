@@ -1,0 +1,45 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h2 style="text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Bienvenidos a VlogCast 1.0</h2>
+
+<div class="card">
+    <div class="card-body" style="background:linear-gradient(gray, beige);">
+        <label style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Nombre de usuario:</label>
+        <input type="text" placeholder="Usuario" style="border-radius:3px;" /><br />
+
+        <label style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">Contraseña:</label>
+        <input type="password" placeholder="Contraseña" style="border-radius:3px;" /><br />
+
+        <button class="btn btn-primary" style="margin-top: 10px;">Iniciar sesión</button>
+        <button class="btn btn-primary" style="margin-top: 10px;">Registrarse</button>
+    </div>
+</div>
+
+<div class="card-body">
+    <h3 style="text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">¿Qué es VlogCast?</h3>
+    <p style="text-align:center; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+        VlogCast es una plataforma de blogs y podcasts donde los usuarios pueden crear, compartir y descubrir contenido multimedia.
+        Con una interfaz intuitiva y herramientas de edición fáciles de usar, VlogCast permite a los creadores de contenido expresarse de manera única y conectar con su audiencia.
+    </p>
+</div>
+
+@code
+{
+    public class User
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
+
+        public User(string username, string password)
+        {
+            Username = username;
+            Password = password;
+        }
+
+
+    }
+
+
+}
